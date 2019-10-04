@@ -1,8 +1,9 @@
 {
   "name": "delay-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "delay-customizable react component",
-  "main": "index.tsx",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "author": "yuta4j1",
   "license": "MIT",
   "devDependencies": {

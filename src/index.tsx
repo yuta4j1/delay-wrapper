@@ -1,5 +1,8 @@
 import * as React from "react"
-import { Props } from "./types"
+
+export type Props = {
+  delayTime: number
+}
 
 const Delay: React.FC<Props> = props => {
   React.useEffect(() => {

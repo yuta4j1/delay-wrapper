@@ -5,7 +5,7 @@ module.exports = {
     devtool: "source-map",
     entry: path.resolve(__dirname, 'src/index.tsx'),
     output: {
-        filename: 'bundle.js'
+        filename: 'index.js'
     },
     module: {
         rules: [
